@@ -2,9 +2,34 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.img-container{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.images{
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+  justify-items: center;
+}
+
 img {
   width: 100px;
   height: 100px;
+  display: block;
+}
+
+.text{
+  flex-wrap: wrap;
 }
 
 .title {
